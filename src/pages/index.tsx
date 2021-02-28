@@ -5,7 +5,7 @@ type Props = {
   title: string
 }
 
-export default function Home({ title = 'React avançado' }: Props) {
+export default function Home({ title = 'React Keep going!' }: Props) {
   return (
     <div className={styles.container}>
       <Head>
